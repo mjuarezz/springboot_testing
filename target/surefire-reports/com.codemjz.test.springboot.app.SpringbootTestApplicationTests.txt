@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.codemjz.test.springboot.app.SpringbootTestApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.023 s - in com.codemjz.test.springboot.app.SpringbootTestApplicationTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.79 s - in com.codemjz.test.springboot.app.SpringbootTestApplicationTests

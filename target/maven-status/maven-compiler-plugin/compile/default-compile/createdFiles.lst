@@ -16,3 +16,4 @@ com\codemjz\test\springboot\app\services\impl\package-info.class
 com\codemjz\test\springboot\app\Datos.class
 com\codemjz\test\springboot\app\models\Cuenta.class
 com\codemjz\test\springboot\app\repositories\BancoRepository.class
+com\codemjz\test\springboot\app\models\CuentaDTO.class
