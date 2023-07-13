@@ -1,47 +1,95 @@
 package com.codemjz.test.springboot.app.models;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Column;
 
 @Entity
-@Table(name="bancos")
+@Table(name = "bancos")
 public class Banco {
+    /**
+     * id.
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    /**
+     * nombre.
+     */
     private String nombre;
-    @Column(name="total_transferencia")
+    /**
+     * total transferencia.
+     */
+    @Column(name = "total_transferencia")
     private int totalTransferencia;
 
+    /**
+     * constructor.
+     */
     public Banco() {
     }
 
-    public Banco(Long id, String nombre, int totalTransferencia) {
-        this.setId(id);
-        this.setNombre(nombre);
-        this.setTotalTransferencia(totalTransferencia);
+    /**
+     *
+     * @param setId
+     * @param setNombre
+     * @param setTotalTransferencia
+     */
+    public Banco(final Long setId, final String setNombre,
+                 final int setTotalTransferencia) {
+        this.setId(setId);
+        this.setNombre(setNombre);
+        this.setTotalTransferencia(setTotalTransferencia);
     }
 
+    /**
+     *
+     * @return id
+     */
     public Long getId() {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    /**
+     *
+     * @param setId
+     */
+    public void setId(final Long setId) {
+        this.id = setId;
     }
 
+    /**
+     *
+     * @return nombre
+     */
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    /**
+     *
+     * @param setNombre
+     */
+    public void setNombre(final String setNombre) {
+        this.nombre = setNombre;
     }
 
+    /**
+     *
+     * @return total transferencia
+     */
     public int getTotalTransferencia() {
         return totalTransferencia;
     }
 
-    public void setTotalTransferencia(int totalTransferencia) {
-        this.totalTransferencia = totalTransferencia;
+    /**
+     *
+     * @param setTotalTransferencia
+     */
+    public void setTotalTransferencia(final int setTotalTransferencia) {
+        this.totalTransferencia = setTotalTransferencia;
     }
 }

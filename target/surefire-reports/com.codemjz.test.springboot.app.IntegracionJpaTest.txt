@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.codemjz.test.springboot.app.IntegracionJpaTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.245 s - in com.codemjz.test.springboot.app.IntegracionJpaTest
